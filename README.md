@@ -43,6 +43,8 @@ A curated list of resources for NLP (Natural Language Processing) for Chinese
 
 - [HanLP](https://github.com/hankcs/HanLP) (Java)
 
+- [FastNLP](https://github.com/fastnlp/fastNLP) (Python) 一款轻量级的 NLP 处理套件。
+
 - [SnowNLP](https://github.com/isnowfy/snownlp) (Python) Python library for processing Chinese text
 
 - [YaYaNLP](https://github.com/Tony-Wang/YaYaNLP) (Python) 纯python编写的中文自然语言处理包，取名于“牙牙学语”
@@ -52,6 +54,8 @@ A curated list of resources for NLP (Natural Language Processing) for Chinese
 - [DeepNLP](https://github.com/rockingdingo/deepnlp) (Python) Deep Learning NLP Pipeline implemented on Tensorflow with pretrained Chinese models.
 
 - [chinese_nlp](https://github.com/taozhijiang/chinese_nlp) (C++ & Python) Chinese Natural Language Processing tools and examples
+
+- [lightNLP](https://github.com/smilelight/lightNLP) (Python) 基于Pytorch和torchtext的自然语言处理深度学习框架
 
 - [Chinese-Annotator](https://github.com/crownpku/Chinese-Annotator) (Python) Annotator for Chinese Text Corpus 中文文本标注工具
 
@@ -63,7 +67,7 @@ A curated list of resources for NLP (Natural Language Processing) for Chinese
 
 - [NLTK](http://www.nltk.org/) (Python) Natural Language Toolkit
 
-- [spaCy](https://spacy.io/) (Python) Industrial-Strength Natural Language Processing
+- [spaCy](https://spacy.io/) (Python) Industrial-Strength Natural Language Processing with a [online course](https://course.spacy.io/)
 
 - [textacy](https://github.com/chartbeat-labs/textacy) (Python) NLP, before and after spaCy
 
@@ -71,11 +75,14 @@ A curated list of resources for NLP (Natural Language Processing) for Chinese
 
 - [gensim](https://github.com/RaRe-Technologies/gensim) (Python) Gensim is a Python library for topic modelling, document indexing and similarity retrieval with large corpora. 
 
+- [Kashgari](https://github.com/BrikerMan/Kashgari) - Simple and powerful NLP framework, build your state-of-art model in 5 minutes for named entity recognition (NER), part-of-speech tagging (PoS) and text classification tasks. Includes BERT and word2vec embedding.
 
   
 ### Chinese Word Segment 中文分词
 
 - [Jieba 结巴中文分词](https://github.com/fxsjy/jieba) (Python及大量其它编程语言衍生) 做最好的 Python 中文分词组件
+
+- [北大中文分词工具](https://github.com/lancopku/pkuseg-python) (Python) 高准确度中文分词工具，简单易用，跟现有开源工具相比大幅提高了分词的准确率。
 
 - [kcws 深度学习中文分词](https://github.com/koth/kcws) (Python) BiLSTM+CRF与IDCNN+CRF
 
@@ -88,6 +95,10 @@ A curated list of resources for NLP (Natural Language Processing) for Chinese
 - [yaha "哑哈"中文分词](https://github.com/jannson/yaha) (Python)
 
 - [ChineseWordSegmentation](https://github.com/Moonshile/ChineseWordSegmentation) (Python) Chinese word segmentation algorithm without corpus（无需语料库的中文分词）
+
+- [Go语言高性能分词](https://github.com/go-ego/gse) (Go) Go efficient text segmentation; support english, chinese, japanese and other.
+
+- [Ansj中文分词](https://github.com/NLPchina/ansj_seg) (java) 基于n-Gram+CRF+HMM的中文分词的java实现 
 
   
 ### Information Extraction 信息提取
@@ -103,6 +114,8 @@ A curated list of resources for NLP (Natural Language Processing) for Chinese
 - [Neural Relation Extraction implemented with LSTM in TensorFlow](https://github.com/thunlp/TensorFlow-NRE)
 
 - [A neural network model for Chinese named entity recognition](https://github.com/zjy-ucas/ChineseNER)
+
+- [bert-chinese-ner](https://github.com/ProHiryu/bert-chinese-ner) 使用预训练语言模型BERT做中文NER
 
 - [Information-Extraction-Chinese](https://github.com/crownpku/Information-Extraction-Chinese) Chinese Named Entity Recognition with IDCNN/biLSTM+CRF, and Relation Extraction with biGRU+2ATT 中文实体识别与关系提取
 
@@ -137,6 +150,8 @@ A curated list of resources for NLP (Natural Language Processing) for Chinese
 
 - [使用深度学习算法实现的中文阅读理解问答系统](https://github.com/S-H-Y-GitHub/QA) (Python)
 
+- [AnyQ by Baidu](https://github.com/baidu/AnyQ) 主要包含面向FAQ集合的问答系统框架、文本语义匹配工具SimNet。
+
 - [DuReader中文阅读理解Baseline代码](https://github.com/baidu/DuReader) (Python)
 
 - [基于SmartQQ的自动机器人框架](https://github.com/Yinzo/SmartQQBot) (Python)
@@ -170,6 +185,10 @@ A curated list of resources for NLP (Natural Language Processing) for Chinese
 
 - [上百种预训练中文词向量](https://github.com/Embedding/Chinese-Word-Vectors)
 
+- [Tencent AI Lab Embedding Corpus for Chinese Words and Phrases](https://ai.tencent.com/ailab/nlp/embedding.html)
+
+- [中华新华字典数据库](https://github.com/pwxcoo/chinese-xinhua) 包括歇后语，成语，词语，汉字。
+
 - [Synonyms:中文近义词工具包](https://github.com/huyingxi/Synonyms/) 基于维基百科中文和word2vec训练的近义词库，封装为python包文件。
 
 - [Chinese_conversation_sentiment](https://github.com/z17176/Chinese_conversation_sentiment) A Chinese sentiment dataset may be useful for sentiment analysis.
@@ -182,6 +201,8 @@ A curated list of resources for NLP (Natural Language Processing) for Chinese
 
 - [八卦版問答中文語料](https://github.com/zake7749/Gossiping-Chinese-Corpus)
 
+- [中文公开聊天语料库](https://github.com/codemayq/chaotbot_corpus_Chinese)
+
 - [中国股市公告信息爬取](https://github.com/startprogress/China_stock_announcement) 通过python脚本从巨潮网络的服务器获取中国股市（sz,sh）的公告(上市公司和监管机构)
 
 - [tushare财经数据接口](http://tushare.org/) TuShare是一个免费、开源的python财经数据接口包。
@@ -193,6 +214,12 @@ A curated list of resources for NLP (Natural Language Processing) for Chinese
 - [DuReader中文阅读理解数据](http://ai.baidu.com/broad/subordinate?dataset=dureader) 
 
 - [中文语料小数据](https://github.com/crownpku/Small-Chinese-Corpus) 包含了中文命名实体识别、中文关系识别、中文阅读理解等一些小量数据
+
+- [Chinese-Literature-NER-RE-Dataset](https://github.com/lancopku/Chinese-Literature-NER-RE-Dataset) A Discourse-Level Named Entity Recognition and Relation Extraction Dataset for Chinese Literature Text
+
+- [ChineseTextualInference](https://github.com/liuhuanyong/ChineseTextualInference) 中文文本推断项目,包括88万文本蕴含中文文本蕴含数据集的翻译与构建,基于深度学习的文本蕴含判定模型构建.
+
+- [大规模中文自然语言处理语料](https://github.com/brightmart/nlp_chinese_corpus) 维基百科(wiki2019zh),新闻语料(news2016zh),百科问答(baike2018qa)
 
 - [中文人名语料库](https://github.com/wainshine/Chinese-Names-Corpus) 中文姓名,姓氏,名字,称呼,日本人名,翻译人名,英文人名。
 
@@ -207,7 +234,8 @@ A curated list of resources for NLP (Natural Language Processing) for Chinese
 - [SentiBridge: 中文实体情感知识库](https://github.com/rainarch/SentiBridge) 刻画人们如何描述某个实体，包含新闻、旅游、餐饮，共计30万对。
 
 - [OpenCorpus](https://github.com/hankcs/OpenCorpus) A collection of freely available (Chinese) corpora. 
-  
+
+- [ChineseNlpCorpus](https://github.com/SophonPlus/ChineseNlpCorpus) 情感/观点/评论 倾向性分析，中文命名实体识别，推荐系统
 <br />
 <br />
 
@@ -295,6 +323,8 @@ A curated list of resources for NLP (Natural Language Processing) for Chinese
 
 - [Oxford CS DeepNLP 2017](https://github.com/oxford-cs-deepnlp-2017)
 
+- [Course materials for Georgia Tech CS 4650 and 7650, "Natural Language"] (https://github.com/jacobeisenstein/gt-nlp-class)
+
 - [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) by Dan Jurafsky and James H. Martin
 
 - [52nlp 我爱自然语言处理](http://www.52nlp.cn/)
@@ -304,4 +334,6 @@ A curated list of resources for NLP (Natural Language Processing) for Chinese
 - [文本处理实践课资料](https://github.com/Roshanson/TextInfoExp) 文本处理实践课资料，包含文本特征提取（TF-IDF），文本分类，文本聚类，word2vec训练词向量及同义词词林中文词语相似度计算、文档自动摘要，信息抽取，情感分析与观点挖掘等实验。
 
 - [nlp_tasks](https://github.com/Kyubyong/nlp_tasks) Natural Language Processing Tasks and Selected References
+
+- [NLP研究入门之道](https://github.com/zibuyu/research_tao) from清华刘知远老师
 
